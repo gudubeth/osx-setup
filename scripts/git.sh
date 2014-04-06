@@ -13,9 +13,8 @@ brew install git
 # Configure git identity, aliases, and other settings.
 git config --global user.name $USER_NAME
 git config --global user.email $USER_EMAIL
-git config --global alias.co checkout
-git config --global alias.st status
-git config --global core.editor "subl -w"
+git config --global push.default simple
+git config --global core.editor "vim"
 git config --list
 
 # Install the Github Application
