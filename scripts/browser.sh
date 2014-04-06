@@ -11,8 +11,12 @@ brew cask install google-chrome
 
 # Chromium
 ###############################################################################
-brew cask install chromium
+#brew cask install chromium
 
 # Firefox
 ###############################################################################
 brew cask install firefox
+
+# Tor browser bundle
+###############################################################################
+brew cask install torbrowserbundle

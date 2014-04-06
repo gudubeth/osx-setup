@@ -12,6 +12,5 @@ brew install gnu-which
 brew install wget
 brew install curl
 brew install libevent
-brew install openssl
 
 

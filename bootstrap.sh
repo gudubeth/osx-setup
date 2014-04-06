@@ -5,6 +5,7 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
+bash ${DIR}/config.sh
 bash ${DIR}/scripts/homebrew.sh
 bash ${DIR}/scripts/homebrew-cask.sh
 bash ${DIR}/scripts/essential.sh
@@ -21,7 +22,7 @@ bash ${DIR}/scripts/python.sh
 bash ${DIR}/scripts/python-extra.sh
 bash ${DIR}/scripts/golang.sh
 bash ${DIR}/scripts/node.sh
-bash ${DIR}/scripts/scala.sh
+#bash ${DIR}/scripts/scala.sh
 bash ${DIR}/scripts/ruby.sh
 
 # File System

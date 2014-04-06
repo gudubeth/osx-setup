@@ -8,4 +8,4 @@
 # Heroku Toolbelt
 ###############################################################################
 # Includes the Heroku client and foreman
-brew install heroku-toolbelt
+#brew install heroku-toolbelt

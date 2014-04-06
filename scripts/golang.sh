@@ -9,17 +9,19 @@
 ###############################################################################
 brew install go
 
+$GO_WORKSPACE=$USER_WORKSPACE/godev
+
 # Set up Go lang workspace
-mkdir -p ${HOME}/Workspace/go-workspace
-mkdir -p ${HOME}/Workspace/go-workspace/src
-mkdir -p ${HOME}/Workspace/go-workspace/pkg
-mkdir -p ${HOME}/Workspace/go-workspace/bin
+mkdir -p $GO_WORKSPACE
+mkdir -p $GO_WORKSPACE/godev/src
+mkdir -p $GO_WORKSPACE/godev/pkg
+mkdir -p $GO_WORKSPACE/godev/bin
 
 # Set environment variable
 echo -e "\n# Set GOPATH environment variable to the Go lang workspace." >> ${HOME}/.bash_profile
-echo "export GOPATH=\$HOME/Workspace/go-workspace" >> ${HOME}/.bash_profile
+echo "export GOPATH=\${HOME]/dev/godev" >> ${HOME}/.bash_profile
 echo -e "\n# Add the Go Workspace's bin subdirectory to PATH." >> ${HOME}/.bash_profile
 echo "PATH=\$PATH:\$GOPATH/bin" >> ${HOME}/.bash_profile
 # Ensure GOPATH is set for the current shell session.
-export GOPATH=$HOME/Workspace/go-workspace
+export GOPATH=$GO_WORKSPACE
 export PATH=$PATH:$GOPATH/bin
