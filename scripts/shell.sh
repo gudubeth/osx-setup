@@ -21,3 +21,6 @@ brew cask install iterm2
 ###############################################################################
 brew install git bash-completion
 # Installs bash completion scripts to /usr/local/etc/bash_completion.d/
+
+## extra
+brew install tmux
