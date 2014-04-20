@@ -2,14 +2,14 @@
 
 These (opinionated) setup scripts automatically configure my OS X development machine, following a clean OS X install. This speeds the processing of starting development from a new machine and provides peace of mind that everything is configured *correctly* (IMO).
 
-## Run list
+## Setup list
 The things that is installed or run in execution sequence
 
 ### homebrew
-brew
+- brew
 
 ### homebrew-cask
-brew-cask
+- brew-cask
 
 ### essential
 - gnu-which
@@ -28,13 +28,13 @@ brew-cask
 - tmux
 
 ### git
-git
-github
+- git
+- github
 
 ### ide
-x
+- uncomment for eclipse or ideaj
 
-### browser
+### browser
 - chrome
 - firefox
 - tor browser
@@ -44,10 +44,7 @@ x
 - python 3.x.x
 
 ### golang
-go
-
-### node
-x
+- go
 
 ### ruby
 - rvm
