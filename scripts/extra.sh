@@ -52,3 +52,8 @@ brew cask install adium            # instant message client (for irc, etc.)
 ###############################################################################
 brew cask install adobe-creative-cloud
 
+# Utilities
+###############################################################################
+brew cask install keka             # free file archiver (7z and more)
+
+

@@ -71,6 +71,7 @@ The things that is installed or run in execution sequence
 - alfred
 - adium
 - adobe cc
+- keka
 
 
 ## Quickstart
