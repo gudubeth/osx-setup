@@ -8,6 +8,7 @@
 ###############################################################################
 brew cask install vlc
 brew cask install google-hangouts
+brew cask install spotify
 
 # Bitcoin
 ###############################################################################

@@ -61,6 +61,7 @@ The things that is installed or run in execution sequence
 ### extra
 - vlc player
 - google hangouts
+- spotify
 - true-crypt
 - steam
 - bartender
