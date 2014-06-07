@@ -43,6 +43,7 @@ brew cask install transmission     # bittorrent client
 ###############################################################################
 brew cask install betterTouchTool  # window manager
 brew cask install alfred           # productivity, quick launch
+brew cask install dash			   # API Documentation Browser and Code Snippet Manager
 
 # Social/Communication
 ###############################################################################

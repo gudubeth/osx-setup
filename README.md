@@ -69,6 +69,7 @@ The things that is installed or run in execution sequence
 - transmission
 - betterTouchTool
 - alfred
+- dash
 - adium
 - adobe cc
 - keka
