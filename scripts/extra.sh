@@ -58,4 +58,6 @@ brew cask install adobe-creative-cloud
 ###############################################################################
 brew cask install keka             # free file archiver (7z and more)
 
-
+# Books
+###############################################################################
+brew cask install calibre		  # ebook management

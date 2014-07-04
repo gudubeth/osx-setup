@@ -74,7 +74,7 @@ The things that is installed or run in execution sequence
 - adium
 - adobe cc
 - keka
-
+- calibre
 
 ## Quickstart
 
