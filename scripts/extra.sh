@@ -15,6 +15,10 @@ brew cask install spotify
 #brew cask install bitcoin-qt
 #brew cask install multibit
 
+# build
+###############################################################################
+brew install ant
+
 # Encryption
 brew cask install true-crypt -y
 
