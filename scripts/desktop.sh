@@ -1,8 +1,33 @@
-# OS X Extras Setup
+# OS X Node Setup
 
 # Assumes: 
 # + Homebrew has been installed correctly.
 # + Homebrew-cask has been tapped and installed correctly.
+
+# Browsers
+###############################################################################
+
+# Chrome
+brew cask install google-chrome
+
+# Chromium
+#brew cask install chromium
+
+# Firefox
+brew cask install firefox
+
+# Tor browser bundle
+brew cask install torbrowserbundle
+
+
+# Dropbox
+###############################################################################
+brew cask install dropbox
+
+# File System Symlinking
+###############################################################################
+# TODO
+
 
 # Audio/Video
 ###############################################################################
@@ -10,24 +35,10 @@ brew cask install vlc
 brew cask install google-hangouts
 brew cask install spotify
 
-# Bitcoin
-###############################################################################
-#brew cask install bitcoin-qt
-#brew cask install multibit
-
-# build
-###############################################################################
-brew install ant
-
-# Encryption
-brew cask install true-crypt -y
-
 # Gaming
 ###############################################################################
 brew cask install steam
 
-# Image Media
-###############################################################################
 
 # Menu Bar Utilities
 ###############################################################################
@@ -44,24 +55,34 @@ brew cask install wireshark        # packet sniffer
 #brew cask install gas-mask         # hosts file manager
 brew cask install transmission     # bittorrent client
 
+
 # Productivity
 ###############################################################################
 brew cask install betterTouchTool  # window manager
 brew cask install alfred           # productivity, quick launch
 brew cask install dash			   # API Documentation Browser and Code Snippet Manager
 
+
 # Social/Communication
 ###############################################################################
 brew cask install adium            # instant message client (for irc, etc.)
+
 
 # Adobe
 ###############################################################################
 brew cask install adobe-creative-cloud
 
+
 # Utilities
 ###############################################################################
 brew cask install keka             # free file archiver (7z and more)
 
+
 # Books
 ###############################################################################
 brew cask install calibre		  # ebook management
+
+
+# Finder
+###############################################################################
+brew cask install qlmarkdown	  # quick look plugin for previewing markdown files

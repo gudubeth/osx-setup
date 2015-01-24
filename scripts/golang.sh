@@ -2,7 +2,6 @@
 
 # Assumes: 
 # + Homebrew has been installed correctly.
-# + Homebrew-cask has been tapped and installed correctly.
 
 
 # Install Go lang latest (1.1.1 as of May 13, 2013)
@@ -13,9 +12,9 @@ $GO_WORKSPACE=$USER_WORKSPACE/godev
 
 # Set up Go lang workspace
 mkdir -p $GO_WORKSPACE
-mkdir -p $GO_WORKSPACE/godev/src
-mkdir -p $GO_WORKSPACE/godev/pkg
-mkdir -p $GO_WORKSPACE/godev/bin
+mkdir -p $GO_WORKSPACE/src
+mkdir -p $GO_WORKSPACE/pkg
+mkdir -p $GO_WORKSPACE/bin
 
 # Set environment variable
 echo -e "\n# Set GOPATH environment variable to the Go lang workspace." >> ${HOME}/.bash_profile

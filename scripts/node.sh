@@ -2,7 +2,6 @@
 
 # Assumes: 
 # + Homebrew has been installed correctly.
-# + Homebrew-cask has been tapped and installed correctly.
 
 #npm will be installed with node
 brew install node
